@@ -1,5 +1,6 @@
+#Requerimos importar la libreria request y Beatiful Soup
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 
 website = ('https://subslikescript.com/movie/Sunshine-145503')
 resultado = requests.get(website)
